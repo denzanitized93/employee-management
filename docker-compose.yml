@@ -1,0 +1,11 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: arden
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: employee-management

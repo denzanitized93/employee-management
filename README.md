@@ -11,7 +11,7 @@ After cloning the repository run the following commands:
 3. docker compose up -d
 
 Create .env file same directory as .env.development file and copy its content.
-Run command: php artisan migrate (make sure docker image is up and ready for db connection)
+1. Run command: php artisan migrate (make sure docker image is up and ready for db connection)
 
 Lastly, perform the commands below:
 1. npm run dev

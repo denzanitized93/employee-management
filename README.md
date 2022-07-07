@@ -1,7 +1,9 @@
 ## Employee Management Project
 
-Download docker:
-https://www.docker.com/
+Make sure to download the following:
+1. node js (https://nodejs.org/en/)
+2. php (https://www.php.net/)
+3. docker (https://www.docker.com/)
 
 After cloning the repository run the following commands:
 1. npm install
